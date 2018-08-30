@@ -1,0 +1,54 @@
+#nfm_menus .nfm-menu {
+	display: inline-block;
+	background: #a4b2bf;
+	padding: 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	cursor: move;
+}
+
+#nfm_menus .nfm-menu .remove {
+	cursor: pointer;
+}
+
+.nfm-form label, .nfm-menu label {
+	display: inline-block;
+	width: 120px;
+}
+
+.nfm-menu div.icon_line {
+	position: relative;
+}
+
+.nfm-menu .icons_list_search {
+	background: #ddd;
+    left: 120px;
+    position: absolute;
+    top: 24px;
+    z-index: 120;
+    width: 200px;
+}
+
+.nfm-menu .icons_list_search ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nfm-menu .icons_list_search ul li {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.nfm-menu .icons_list_search ul li i {
+	margin-right: 5px;
+}
+
+#nfm_pro {
+	margin-top: 20px;
+	padding: 10px;
+	background: #ccc;
+	display: inline-block;
+}
+
+#nfm_pro img {
+	width: 250px;

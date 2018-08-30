@@ -1,0 +1,328 @@
+# Copyright (C) 2016 6 Hour Creative
+# This file is distributed under the same license as the Smart Recent Posts Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Recent Posts Widget 0.0.3\n"
+"Report-Msgid-Bugs-To: https://6hourcreative.com/\n"
+"POT-Creation-Date: 2016-09-09 18:00:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 6 Hour Creative (hi@6hourcreative.com)\n"
+"Language-Team: 6 Hour Creative (hi@6hourcreative.com)\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/functions.php:16
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "Read More &raquo;"
+msgstr ""
+
+#: includes/functions.php:156 includes/functions.php:162
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:169
+msgid "No Comments"
+msgstr ""
+
+#: includes/functions.php:171
+msgid "%s Comments"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "1 Comment"
+msgstr ""
+
+#: includes/widget.php:16
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"site’s most recent Posts."
+msgstr ""
+
+#: includes/widget.php:27
+msgid "Smart Recent Posts"
+msgstr ""
+
+#: includes/widget.php:191
+msgid "General"
+msgstr ""
+
+#: includes/widget.php:192
+msgid "Posts"
+msgstr ""
+
+#: includes/widget.php:193
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/widget.php:194
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/widget.php:195
+msgid "Excerpt"
+msgstr ""
+
+#: includes/widget.php:196
+msgid "Display"
+msgstr ""
+
+#: includes/widget.php:197
+msgid "Appearance"
+msgstr ""
+
+#: includes/widget.php:206 includes/widget.php:317
+msgid "Title"
+msgstr ""
+
+#: includes/widget.php:213
+msgid "Title URL"
+msgstr ""
+
+#: includes/widget.php:220
+msgid "CSS Class"
+msgstr ""
+
+#: includes/widget.php:227
+msgid "HTML or text before the recent posts"
+msgstr ""
+
+#: includes/widget.php:234
+msgid "HTML or text after the recent posts"
+msgstr ""
+
+#: includes/widget.php:246
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: includes/widget.php:253
+msgid "Exclude current post"
+msgstr ""
+
+#: includes/widget.php:259
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/widget.php:266
+msgid "Offset"
+msgstr ""
+
+#: includes/widget.php:269
+msgid "The number of posts to skip"
+msgstr ""
+
+#: includes/widget.php:274
+msgid "Post Types"
+msgstr ""
+
+#: includes/widget.php:286
+msgid "Please note, Media post type is not supported by this plugin yet."
+msgstr ""
+
+#: includes/widget.php:291
+msgid "Post Status"
+msgstr ""
+
+#: includes/widget.php:302
+msgid "Order"
+msgstr ""
+
+#: includes/widget.php:305
+msgid "Descending"
+msgstr ""
+
+#: includes/widget.php:306
+msgid "Ascending"
+msgstr ""
+
+#: includes/widget.php:312
+msgid "Orderby"
+msgstr ""
+
+#: includes/widget.php:315
+msgid "ID"
+msgstr ""
+
+#: includes/widget.php:316
+msgid "Author"
+msgstr ""
+
+#: includes/widget.php:318
+msgid "Date"
+msgstr ""
+
+#: includes/widget.php:319
+msgid "Modified"
+msgstr ""
+
+#: includes/widget.php:320
+msgid "Random"
+msgstr ""
+
+#: includes/widget.php:321
+msgid "Comment Count"
+msgstr ""
+
+#: includes/widget.php:322
+msgid "Menu Order"
+msgstr ""
+
+#: includes/widget.php:333
+msgid "Limit"
+msgstr ""
+
+#: includes/widget.php:334
+msgid "Exclude"
+msgstr ""
+
+#: includes/widget.php:341
+msgid "Limit to categories"
+msgstr ""
+
+#: includes/widget.php:357
+msgid "Limit to tags"
+msgstr ""
+
+#: includes/widget.php:377
+msgid "Exclude categories"
+msgstr ""
+
+#: includes/widget.php:393
+msgid "Exclude tags"
+msgstr ""
+
+#: includes/widget.php:420
+msgid "Display Thumbnail"
+msgstr ""
+
+#: includes/widget.php:426
+msgid "Thumbnail Size "
+msgstr ""
+
+#: includes/widget.php:437
+msgid "Thumbnail Alignment"
+msgstr ""
+
+#: includes/widget.php:440
+msgid "Left"
+msgstr ""
+
+#: includes/widget.php:441
+msgid "Right"
+msgstr ""
+
+#: includes/widget.php:442
+msgid "Center"
+msgstr ""
+
+#: includes/widget.php:448
+msgid "Default Thumbnail"
+msgstr ""
+
+#: includes/widget.php:451
+msgid "Leave it blank to disable."
+msgstr ""
+
+#: includes/widget.php:463
+msgid "Display Excerpt"
+msgstr ""
+
+#: includes/widget.php:469
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/widget.php:477
+msgid "Display Readmore"
+msgstr ""
+
+#: includes/widget.php:483
+msgid "Readmore Text"
+msgstr ""
+
+#: includes/widget.php:495
+msgid "Display Title"
+msgstr ""
+
+#: includes/widget.php:502
+msgid "Display Date"
+msgstr ""
+
+#: includes/widget.php:509
+msgid "Display Comment Count"
+msgstr ""
+
+#: includes/widget.php:516
+msgid "Display Author"
+msgstr ""
+
+#: includes/widget.php:523
+msgid "Display Modification Date"
+msgstr ""
+
+#: includes/widget.php:530
+msgid "Use Relative Date. eg: 5 days ago"
+msgstr ""
+
+#: includes/widget.php:540
+msgid "Style"
+msgstr ""
+
+#: includes/widget.php:543
+msgid "Default"
+msgstr ""
+
+#: includes/widget.php:544
+msgid "Classic"
+msgstr ""
+
+#: includes/widget.php:545
+msgid "Modern"
+msgstr ""
+
+#: includes/widget.php:547
+msgid "Please follow %1$sthis guidelines%2$s to get the best result."
+msgstr ""
+
+#: includes/widget.php:553
+msgid "Open link in new tab"
+msgstr ""
+
+#: includes/widget.php:559
+msgid "Custom CSS"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Recent Posts Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://6hourcreative.com/plugins/smart-recent-posts-widget/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Enables advanced widget that gives you total control over the output of "
+"your site’s most recent Posts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "6 Hour Creative"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://6hourcreative.com/"
+msgstr ""

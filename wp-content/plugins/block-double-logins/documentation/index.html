@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>Block Double Logins Documentation</title>
+  <meta name="description" content="Block Double Logins plugin documentation by Web factory Ltd. Sold exclusively on CodeCanyon.">
+  <meta name="lang" content="en">
+  <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+  <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+  <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+</head>
+<body>
+  <div class="container">
+    <h3 class="center alt">&ldquo;Block Double Logins&rdquo; Documentation by &ldquo;Web factory Ltd&rdquo; v1.0</h3>
+    <hr>
+    <h1 class="center">&ldquo;Block Double Logins&rdquo; WordPress plugin</h1>
+    <div class="borderTop">
+      <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top"><b>
+          Created: 2014/05/15, revision 1<br />
+          By: Web factory Ltd<br>
+          Support: <a href="http://codecanyon.net/user/WebFactory#from">only via CodeCanyon</a></b>
+        </p>
+      </div><!-- end div .span-6 -->
+      <div class="span-12 last">
+        <p class="prepend-top append-0">Thank you very much for purchasing our premium WordPress plugin. If you have any questions that are beyond the scope of this help file, please feel free to email us via our user page <a href="http://codecanyon.net/user/webfactory#from">contact form</a>. Have a good one!</p>
+      </div>
+    </div><!-- end div .borderTop -->
+  </div><!-- end div .container -->
+  <div class="container">
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol class="alpha">
+      <li><a href="#">Installation &amp; upgrade</a></li>
+      <li><a href="#">5sec getting started guide</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Sources and Credits</a></li>
+      <li><a href="http://block-double-logins.webfactoryltd.com/" target="_blank">Online demo and examples</a></li>
+    </ol>
+  </div><!-- end div .container -->
+
+
+  <div class="container">
+<h3 class="numerate"><strong>Installation &amp; upgrade</strong> - <a href="#toc">top</a></h3>
+<p class="error">Block Double Logins requires <b>WordPress v3.7 or higher</b> to function properly!</p>
+
+<h4>Installation</h4>
+<ol>
+<li>Download the ZIP package from CodeCanyon.</li>
+<li>Open WordPress admin and go to <span class="highlight-code">Plugins -&gt; Add New -&gt; Upload</span>. Browse for the ZIP file <em>block-double-logins.zip</em> on your computer and click "Install Now".</li>
+<li>Activate the plugin.</li>
+</ol>
+
+<h4>Upgrade - method #1, it wont reset plugin's settings, log or reset current username/IP blocks</h4>
+<ol>
+<li>Do NOT deactivate the plugin.</li>
+<li>Use FTP to locate folder <i>wp-content/plugins/block-double-logins/</i></li>
+<li>Overwrite all files in that folder with new ones downloaded from CodeCanyon</li>
+</ol>
+
+<h4>Upgrade - method #2, it <b>will reset</b> plugin's settings, log and reset all username/IP blocks</h4>
+<ol>
+<li>Deactivate and delete the plugin in your WP admin -&gt; Plugins.</li>
+<li>Use the Add New -&gt; Upload function to upload the new plugin ZIP file.</li>
+<li>Activate the plugin.</li>
+</ol>
+
+  </div><!-- end div .container -->
+
+    <div class="container">
+<h3 class="numerate"><strong>5sec getting started guide</strong> - <a href="#toc">top</a></h3>
+
+<p>Install and activate the plugin. All settings are available under <span class="highlight-code">Settings - Block Double Logins</span>. Default settings will work for most sites; they prevent users from sharing accounts but IP restrictions are not enabled. Please click the <span class="highlight-code">Send URL to email for safekeeping</span> button so that you have a way of going around the plugin's blocks in case you lock yourself out.</p>
+
+<p>Current blocks are always visible in Settings, under the <span class="highlight-code">Tools</span> tab.</p>
+
+  </div><!-- end div .container -->
+
+
+<div class="container">
+  <h3 class="numerate"><strong>Settings</strong> - <a href="#toc">top</a></h3>
+
+<p>All settings are available under <span class="highlight-code">Settings - Block Double Logins</span>.</p>
+
+<h4>General Settings</h4>
+<p><b>Login Warning Message</b> - message displayed on top of default login form. It serves as a warning to all who are logging in to the site. Leave blank to remove.<br>
+<b>Plugin Override Code</b> - use this code and URL to force your next login regardless of other people who may be logged in with the same IP or username. It disables the proxy block too. Please do not share this URL as it's supposed to be used only in emergencies. We also recommend using the "send to email" function so that you have the URL in a convenient location.<br>
+<b>Session Lock Timeout</b> - time for user inactivity after which the locks on username and IP are released. If the user properly logs out the lock is immediately released. Depending on the type of your site you should adjust the value to something lower (if you want the locks released faster) or higher (if there's no need for that). Default: 10 minutes.<br>
+<b>Controlled User Roles</b> - user roles on which all plugin rules are applied. To maximize security we recommend keeping the default setting - all roles; but adjust it to your needs as necessary.</p>
+
+<h4>Username Based Blocking</h4>
+<p><b>Prevent Double Login Based on Username</b> - enables/disables the rule that at any given time a single WordPress account can only be used by one person.<br>
+<b>Error Message on Login</b> - message displayed on login form when double login is attempted.
+ </p>
+
+<h4>IP Based Blocking</h4>
+<p><b>Prevent Double Login Based on IP</b> - enables/disables the rule that at any given time a single IP can only be logged in with one WordPress account.<br>
+<b>Error Message on Login</b> - message displayed on login form when double login is attempted.<br>
+<b>Block Users Who Use Proxies</b> - people who use proxies will not be able to login. WARNING! There might be false negatives and in rare cases false positives. It's impossible to say with 100% certainty if someone is behind a proxy if they really want to hide it.<br>
+<b>Error Message for Proxy Users</b> - message displayed on login form after users behind a proxy attempt to login.</p>
+
+<h4>Tools</h4>
+<p>All double login attempts are logged and you can view the last 200 events in the log. You can also view current username and IP based locks. If needed those locks can be reset as well. That won't log you out. Just be sure to refresh the page after resetting so that you get a new session.</p>
+
+    </div><!-- end div .container -->
+
+  <div class="container">
+    <h3 class="numerate"><strong>FAQ</strong> - <a href="#toc">top</a></h3>
+
+<h4>What if I lock myself out?</h4>
+<p>Wait for 10 minutes (or the time you set for the session timeout) or use the plugin override code.</p>
+
+<h4>Will this work with any theme?</h4>
+<p>Yes, it's completely theme independant.</p>
+
+<h4>Is it compatible with other (security) plugins?</h4>
+<p>We haven't found any issues with other plugins, however we can't guarantee for "all" 3rd party plugins.</p>
+
+<h4>Will it slow my site down?</h4>
+<p>Plugin's overhead is absolutely minimal so it wont slow down your site.</p>
+
+<h4>Will it work with a custom login form?</h4>
+<p>Regardless of the login form that's used block will be applied only possible issue is that custom error messages shown on login won't be shown but that depends on the login form you're using. </p>
+
+
+  </div><!-- end div .container -->
+  <div class="container">
+    <h3 class="numerate"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+    <p>Block Double Logins does not use any external libraries or copyrighted code beside ones used by WordPress.</p>
+
+  </div><!-- end div .container -->
+    <div class="container">
+    <p>Once again, <strong>thank you</strong> so much for purchasing this premium WordPress plugin. As stated at the beginning, we'd be glad to help you if you have any questions relating to this plugin. We'll do our best to assist. If you have a more general question related to plugins on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p><br>
+    <div id="footer_logos"><a href="http://www.webfactoryltd.com/"><img class="footer-logo" src="assets/images/webfactory_logo.png" alt="Web Factory Ltd." /></a><a href="http://codecanyon.net/"><img class="footer-logo" src="assets/images/codecanyon_logo.png" alt="CodeCanyon" /></a></div>
+    <p class="footer-totop"><a href="#toc">Go To Table of Contents</a></p>
+   </div><!-- end div .container -->
+     <script type="text/javascript" src="assets/js/jquery.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+         $('h3.numerate').each(function(i, element){
+           $('strong', element).prepend(String.fromCharCode(65 + i) + ') ');
+           $(element).attr('id', 'section-' + (i+1));
+         });
+
+         $('ol.alpha li').each(function(i, element){
+           if ($('a', element).attr('href') == '#' || $('a', element).attr('href') == '') {
+            $('a', element).attr('href', '#section-' + (i+1));
+           }
+         });
+       });
+  </script>
+</body>
+</html>

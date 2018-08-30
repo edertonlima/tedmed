@@ -1,0 +1,67 @@
+#nice-fixed-menu {
+	position: fixed;
+	z-index: 1000;
+}
+
+/* Emplacements */
+#nice-fixed-menu.top {
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#nice-fixed-menu.bottom {
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#nice-fixed-menu.left {
+	top: 0;
+	left: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#nice-fixed-menu.right {
+	top: 0;
+	right: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#nice-fixed-menu.top > ul li,
+#nice-fixed-menu.bottom > ul li {
+	display: inline-block;
+}
+
+/* Animations */
+#nice-fixed-menu > ul li:hover {
+	transform: scale(1.1);
+}
+
+#nice-fixed-menu > ul {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#nice-fixed-menu > ul li {
+	padding: 5px;
+	transition: all 0.1s linear;
+}
+
+#nice-fixed-menu > ul li i {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#nice-fixed-menu.left > ul li i {
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+#nice-fixed-menu > ul li a {
+	text-decoration: none;
+}

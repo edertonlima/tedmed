@@ -1,0 +1,193 @@
+# Created: 2014-05-14T17:05:06+00:00
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Block Double Logins\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Web factory Ltd <info@webfactoryltd.com>\n"
+"Language-Team: Web factory Ltd\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# block-double-logins.php:134
+# block-double-logins.php:134
+msgid "Block Double Logins"
+msgstr "Block Double Logins"
+
+# block-double-logins.php:812
+msgid "Block Double Logins <b>requires WordPress version 3.7</b> or higher to function properly."
+msgstr "Block Double Logins <b>requires WordPress version 3.7</b> or higher to function properly."
+
+# block-double-logins.php:413
+msgid "Block Double Logins Override Code"
+msgstr "Block Double Logins Override Code"
+
+# block-double-logins.php:607
+msgid "Block Double Logins Settings"
+msgstr "Block Double Logins Settings"
+
+# block-double-logins.php:389
+msgid "Block Double Logins protections are disabled for this login attempt."
+msgstr "Block Double Logins protections are disabled for this login attempt."
+
+# block-double-logins.php:675
+msgid "Block Users Who Use Proxies"
+msgstr "Block Users Who Use Proxies"
+
+# block-double-logins.php:87
+# block-double-logins.php:707
+msgid "Contact Web factory"
+msgstr "Contact Web factory"
+
+# block-double-logins.php:639
+msgid "Controlled User Roles"
+msgstr "Controlled User Roles"
+
+# block-double-logins.php:86
+# block-double-logins.php:707
+msgid "Documentation"
+msgstr "Documentation"
+
+# block-double-logins.php:678
+msgid "Error Message for Proxy Users"
+msgstr "Error Message for Proxy Users"
+
+# block-double-logins.php:656
+# block-double-logins.php:670
+msgid "Error Message on Login"
+msgstr "Error Message on Login"
+
+# block-double-logins.php:433
+msgid "Event"
+msgstr "Event"
+
+# block-double-logins.php:614
+msgid "General Settings"
+msgstr "General Settings"
+
+# block-double-logins.php:433
+# block-double-logins.php:455
+# block-double-logins.php:485
+msgid "IP"
+msgstr "IP"
+
+# block-double-logins.php:616
+msgid "IP Based Blocking"
+msgstr "IP Based Blocking"
+
+# block-double-logins.php:452
+msgid "IP based double login protection is <b>disabled</b>."
+msgstr "IP based double login protection is <b>disabled</b>."
+
+# block-double-logins.php:455
+# block-double-logins.php:485
+msgid "Last seen"
+msgstr "Last seen"
+
+# block-double-logins.php:430
+msgid "Log is empty."
+msgstr "Log is empty."
+
+# block-double-logins.php:624
+msgid "Login Warning Message"
+msgstr "Login Warning Message"
+
+# block-double-logins.php:629
+msgid "Plugin Override Code"
+msgstr "Plugin Override Code"
+
+# block-double-logins.php:666
+msgid "Prevent Double Login Based on IP"
+msgstr "Prevent Double Login Based on IP"
+
+# block-double-logins.php:652
+msgid "Prevent Double Login Based on Username"
+msgstr "Prevent Double Login Based on Username"
+
+# block-double-logins.php:701
+msgid "Reset all IP based locks"
+msgstr "Reset all IP based locks"
+
+# block-double-logins.php:698
+msgid "Reset all username based locks"
+msgstr "Reset all username based locks"
+
+# block-double-logins.php:646
+# block-double-logins.php:660
+# block-double-logins.php:683
+msgid "Save Settings"
+msgstr "Save Settings"
+
+# block-double-logins.php:634
+msgid "Session Lock Timeout"
+msgstr "Session Lock Timeout"
+
+# block-double-logins.php:100
+msgid "Settings"
+msgstr "Settings"
+
+# block-double-logins.php:100
+msgid "Settings for Block Double Logins"
+msgstr "Settings for Block Double Logins"
+
+# block-double-logins.php:87
+# block-double-logins.php:707
+msgid "Support"
+msgstr "Support"
+
+# block-double-logins.php:433
+msgid "Timestamp"
+msgstr "Timestamp"
+
+# block-double-logins.php:617
+msgid "Tools"
+msgstr "Tools"
+
+# block-double-logins.php:410
+msgid "Use the following URL to override the plugin for one login attempt. You will be able to login regardless of other people who may be logged in with the same IP or username. It bypasses the proxy block too. Please DO NOT share this URL as it's supposed be used only in emergencies."
+msgstr "Use the following URL to override the plugin for one login attempt. You will be able to login regardless of other people who may be logged in with the same IP or username. It bypasses the proxy block too. Please DO NOT share this URL as it's supposed be used only in emergencies."
+
+# block-double-logins.php:433
+# block-double-logins.php:455
+# block-double-logins.php:485
+msgid "Username"
+msgstr "Username"
+
+# block-double-logins.php:615
+msgid "Username Based Blocking"
+msgstr "Username Based Blocking"
+
+# block-double-logins.php:482
+msgid "Username based double login protection is <b>disabled</b>."
+msgstr "Username based double login protection is <b>disabled</b>."
+
+# block-double-logins.php:695
+msgid "View active IP based locks"
+msgstr "View active IP based locks"
+
+# block-double-logins.php:692
+msgid "View active username based locks"
+msgstr "View active username based locks"
+
+# block-double-logins.php:689
+msgid "View blocked logins log"
+msgstr "View blocked logins log"
+
+# block-double-logins.php:86
+# block-double-logins.php:707
+msgid "View documentation"
+msgstr "View documentation"
+
+# block-double-logins.php:399
+msgid "You've been logged out by Block Double Logins plugin."
+msgstr "You've been logged out by Block Double Logins plugin."
+
+# block-double-logins.php:460
+# block-double-logins.php:493
+msgid "a few seconds ago"
+msgstr "a few seconds ago"
