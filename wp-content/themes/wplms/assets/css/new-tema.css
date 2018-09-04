@@ -96,6 +96,9 @@ body.home {
   color: #ffffff !important;
   background-color: #00638f!important;
 }
+.pusher .header-princ nav .menu li:hover li a, .pusher .header-princ nav .menu li.current-menu-item li a, .pusher .header-princ nav .menu li.current-menu-item:hover li a  {
+  color: #00638f !important;
+}
 .pusher .header-princ nav .menu li:hover > .sub-menu {
   padding: 20px;
 }
@@ -122,6 +125,15 @@ body.home {
   color: #00638f !important;
   background-color: #ffffff!important;
   text-shadow: none;
+}
+
+.home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li:hover li a {
+  background-color: transparent!important;
+  color: #00638f !important;
+}
+
+.home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li:hover li a:hover {
+  color: #a01c20 !important;
 }
 
 
@@ -192,4 +204,51 @@ header #searchform {
 }
 .ls-bottom-slidebuttons a.ls-nav-active {
   background: #fff!important;
+}
+
+
+/* HOME */
+.home h3.tit-box {
+  font-size: 3rem;
+  color: #00638f;
+  font-weight: 700;
+  margin: 150px 0 50px;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+.home h3.heading {
+  display: none;
+}
+
+.destaque-home {
+  padding: 150px 0;
+  margin: 150px 0 0;
+  background-color: #efefef !important;
+}
+.destaque-home h3 {
+  margin: 0 0 30px!important;
+}
+.destaque-home .btn {
+  background: #a01c20;
+  border: 0;
+  color: #fff;
+  padding: 10px 50px;
+}
+
+.vantagens-home {
+
+}
+
+.vantagens-home img {
+  height: 100px;
+  width: auto;
+}
+
+.vantagens-home h3 {
+  font-size: 18px;
+}
+
+.home .vantagens-home h3.tit-box {
+  margin-top: 0;
 }
