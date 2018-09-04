@@ -1,0 +1,195 @@
+body {
+  padding-top: 100px;
+}
+
+body.home {
+  padding-top: 0px;
+}
+
+.header-fixed {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 10px 0;
+  z-index: 999;
+  background-color: #ffffff!important;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+}
+.home .header-fixed:not(.scroll_menu) {
+  background-color: transparent!important;
+  box-shadow: none;
+}
+.pusher #headertop, .pusher .header-princ {
+  width: 100%;
+  padding: 0px!important;
+  box-shadow: none;
+  background-color: transparent!important;
+}
+
+
+
+/* HEADER TOP */
+.pusher #headertop {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.pusher #headertop .topmenu {
+ margin-right: 50px;
+}
+.pusher #headertop li {
+  border: none;
+}
+.pusher #headertop li a {
+  text-transform: initial;
+  color: #00638f !important;
+  -moz-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+}
+.pusher #headertop li a:hover {
+  text-decoration: underline;
+}
+
+.home .pusher .header-fixed:not(.scroll_menu) #headertop li a {
+  color: #fff!important;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+
+/* HEADER */
+#logo {
+  margin: 0;
+  position: relative;
+  top: -24px;
+  display: block;
+}
+.home .header-fixed:not(.scroll_menu) #logo img.logo-default {
+  display: none;
+}
+
+#logo img.logo-home {
+  display: none;
+}
+.home .header-fixed:not(.scroll_menu) #logo img.logo-home {
+  display: block;
+}
+
+
+
+/* MENU */
+.pusher .header-princ nav .menu li a {
+  color: #00638f !important;
+  padding: 12px!important;
+  margin: 0!important;
+  border-radius: 0!important;
+  -moz-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  opacity: 1;
+}
+.pusher .header-princ nav .menu li:hover a, .pusher .header-princ nav .menu li.current-menu-item a, .pusher .header-princ nav .menu li.current-menu-item:hover a  {
+  color: #ffffff !important;
+  background-color: #00638f!important;
+}
+.pusher .header-princ nav .menu li:hover > .sub-menu {
+  padding: 20px;
+}
+.pusher .header-princ nav .menu li:hover > .sub-menu > li {
+  width: auto!important;
+}
+.pusher .header-princ nav .menu li:hover > .sub-menu > li a:hover {
+  color: #a01c20!important;
+  background-color: transparent!important;
+}
+.menu-main-menu-container {
+  margin-top: 5px;
+}
+
+.pusher .header-princ nav .menu li:hover li a {
+  background-color: transparent!important;
+}
+
+.home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li a {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 1px #000;
+}
+.home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li:hover a, .home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li.current-menu-item a, .home .pusher .header-fixed:not(.scroll_menu) .header-princ nav .menu li.current-menu-item:hover a  {
+  color: #00638f !important;
+  background-color: #ffffff!important;
+  text-shadow: none;
+}
+
+
+
+/* SEARCH */
+header #searchform {
+  background-color: transparent;
+}
+.pusher .header-princ #searchicon {
+  padding: 17px 0 0 !important;
+  margin-left: 10px;
+}
+.pusher .header-princ #searchicon i {
+  padding: 12px 12px 11px;
+  color: #00638f !important;
+}
+.pusher .header-princ #searchicon i:hover, .pusher .header-princ #searchicon.active i, .pusher .header-princ #searchicon.active i:hover {
+  color: #ffffff !important;
+  background-color: #00638f!important;
+}
+.pusher .header-princ #searchdiv.active #searchform input[type="text"] {
+  background-color: #a01c20;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.home .pusher .header-princ #searchicon i {
+  color: #ffffff !important;
+}
+.home .pusher .header-princ #searchicon i:hover, .pusher .header-princ #searchicon.active i, .pusher .header-princ #searchicon.active i:hover {
+  color: #00638f !important;
+  background-color: #ffffff!important;
+}
+
+
+
+/* SLIDE */
+.ls-wp-fullwidth-container, .ls-wp-fullwidth-helper, .ls-wp-container.ls-container.ls-v5, .ls-inner, .ls-slide, .ls-slide {
+  height: 100vh!important;
+}
+.ls-bottom-nav-wrapper {
+  visibility: visible;
+  height: 100vh;
+  right: 20px;
+  position: absolute;
+  top: 0;
+  display: table;
+}
+.ls-bottom-slidebuttons {
+  top: 0!important;
+  display: table-cell!important;
+  vertical-align: middle;
+  height: auto!important;
+}
+.ls-bottom-slidebuttons a {
+  width: 15px!important;
+  display: block!important;
+  background: none!important;
+  height: 15px!important;
+  border-radius: 50%;
+  border: 2px solid #fff !important;
+  margin: 20px 0;
+  box-shadow: 1px 1px 1px #000;
+  -moz-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+}
+.ls-bottom-slidebuttons a.ls-nav-active {
+  background: #fff!important;
+}
